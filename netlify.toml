@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0F2318" />
+    <meta name="description" content="Swing Stakes — Golf Betting, Elevated" />
+
+    <!-- PWA / mobile -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Swing Stakes" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Swing Stakes" />
+    <meta property="og:description" content="Golf betting tracker — Skins, Wolf, Nassau, Vegas & more" />
+    <meta property="og:type" content="website" />
+
+    <title>Swing Stakes</title>
+
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #root {
+        height: 100%;
+        background: #0F2318;
+        font-family: 'DM Sans', 'Segoe UI', sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* Prevent iOS bounce scroll on the outer shell */
+      body { overscroll-behavior: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
